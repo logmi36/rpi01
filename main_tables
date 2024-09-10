@@ -1,0 +1,178 @@
+Entidad Vehiculo
+
+Nro.	Campo	Descripción
+1	chr_VehiCodigo	Código de Vehículo
+2	chr_EntiCodigoTransportista	Código de transportista
+3	vch_VehiPlaca	Número de placa del vehículo
+4	chr_ChofCodigo	Código del chofer
+5	chr_VehiEstado	Estado del vehículo
+6	dtt_RegistroCreado	Fecha de registro
+7	dtt_RegistroModifica	Fecha de modificación
+8	chr_UsuarioModifica	Código usuario que modifica
+9	chr_codciatransportista	Código empresa transportista
+10	chr_VehiTipoCodigo	Código de tipo de vehículo
+11	vch_VehiMarca	Marca del vehículo
+12	chr_VehiRegistroMTC	Código registro MTC vehículo
+13	chr_EjeCodigo	Código de tipo de eje
+14	chr_VehiTaraPromedio	Vehículo tiene tara
+15	num_VehiTaraPromedioIni	Tara promedio inicial
+16	num_VehiTaraPromedioFin	Tara promedio final
+17	chr_UsuarioCreado	Código usuario que registra
+18	chr_VehiApoyoOperPuerto	Indicador de Puerto apoyo
+19	chr_VehiUsrApoyoOperPuerto	Código usuario Operador Puerto
+20	dtt_VehiUsrApoyoOperPuerto	Fecha de registro operador puerto
+21	chr_MoviCBajaPlataforma	Estado de baja en plataforma
+
+
+
+Entidad Chofer
+Nro.	Campo	Descripcion
+1	chr_ChofCodigo	Codigo del conductor
+2	vch_ChofNombre	Nombre del conductor
+3	vch_ChofBrevete	Numero del brevete del conductor
+4	chr_ChofEstado	Estado del conductor
+5	dtt_RegistroCreado	Fecha de registro del conductor
+6	dtt_RegistroModifica	Fecha de  modificacion del conductor
+7	chr_UsuarioModifica	Codigo de usuario que modifica al conductor
+8	chr_ChofDNI	Numero de DNI del conductor
+9	chr_UsuarioCreado	Codigo de usuario que registra a condcutor
+10	chr_PersCodigo	Codigo de usuario del conductor
+
+
+Entidad
+Nro.	Campo	Descripción
+1	chr_EntiCodigo	Código de la entidad
+2	chr_EntiTipoCodigo	Código del tipo de entidad
+3	chr_ClieCodigo	Código de la entidad
+4	vch_EntiTelefono	Numero de teléfono de la entidad
+5	vch_EntiFax	Numero de Fax de la entidad
+6	vch_EntiCorreo	Correo electrónico de la entidad
+7	vch_EntiContacto	nombre de persona de contacto
+8	vch_EntiIdentificador	Código identificador de la entidad
+9	chr_EntiEstado	Estado de la entidad
+10	dtt_RegistroCreado	Fecha de registro
+11	dtt_RegistroModifica	Fecha de modificación
+12	chr_UsuarioModifica	Código de usuario que modifica
+13	chr_UsuarioCreado	Código de usuario que registra
+14	chr_EntiAgteMaritimo	Es Agente marítimo
+15	chr_EntiAgteAduana	Es agente de aduana
+16	chr_EntiConsignatario	Es consignatario
+17	chr_EntiLineaNaviera	Es línea naviera
+18	chr_EntiAgteNaviero	Es agente naviero
+19	chr_EntiTransportista	Es transportista
+20	chr_EntiConsolidador	Es agente consolidador
+21	chr_EntiAgteMaritimoCod	Código de agente marítimo
+22	chr_EntiAgteAduanaCod	Código de agente de aduana
+23	chr_EntiConsignatarioCod	Código de consignatario
+24	chr_EntiLineaNavieraCod	Código de línea naviera
+25	chr_EntiAgteNavieroCod	Código de agente naviero
+26	chr_EntiTransportistaCod	Código de transportista
+27	chr_EntiConsolidadorCod	Código de agente consolidador
+28	chr_HoraIniValorizada	Hora de inicio de carga valorizada
+29	chr_HoraFinValorizada	Hora de fin de carga valorizada
+30	big_CodigoTransportista	Código del transportista
+31	chr_Empadronamiento	Está empadronado
+
+
+
+
+Entidad Vehiculo tipo
+Nro	Campo	Descripcion
+1	chr_VehiTipoCodigo	Codigo de tipo de vehiculo
+2	vch_VehiTipoDescripcion	Tipo de vehiculo
+3	vch_VehiTipoAbreviado	Tipo de vehiculo abreviado
+4	chr_VehiTipoEstado	Estado de tipo de vehiculo
+
+
+Entidad Cliente
+
+Nro	Campo	Descripción
+1	chr_ClieCodigo	Código del cliente
+2	chr_ClieCodigoOrigen	Código del cliente de origen
+3	vch_ClieSocial	Nombre del cliente
+4	vch_ClieComercial	Nombre comercial del cliente
+5	vch_ClieAbreviado	Nombre abreviado del cliente
+6	chr_ClieTipoCodigo	Código de tipo de cliente
+7	vch_ClieRuc	Numero RUC del cliente
+8	chr_ClieCateCodigo	Código de categoría del cliente
+9	chr_DocuIdenCodigo	Código del tipo de documento del cliente
+10	vch_ClieDocumento	Numero de documento
+11	vch_ClieDireccion	Dirección del cliente
+12	chr_DistCodigo	Código del distrito
+13	vch_ClieTelefono	Numero telefónico del cliente
+14	vch_ClieCorreo	Correo electrónico de cliente
+15	chr_ClieEstado	Estado del cliente
+16	dtt_RegistroCreado	Fecha de registro del cliente
+17	dtt_RegistroModifica	Fecha de modificación del cliente
+18	chr_UsuarioModifica	Código de usuario que modifica el cliente
+19	chr_VentTipoCodigo	Código de tipo de vehículo
+20	chr_CredTiemCodigo	Código del tiempo de crédito
+21	chr_TeleTipoCodigo	Código de tipo de tele transferencia
+22	vch_ClieCelular	Numero de celular del cliente
+23	vch_ClieCelularMensaje	Mensaje de texto a enviar
+24	vch_ClieRegMTC	Número de registro al MTC
+25	chr_ClieBloqueoCarga	Numero de bloqueos del cliente
+26	chr_ClieSuspendido	Es cliente suspendido?
+27	vch_ClieSuspendido	Motivo de la suspensión del cliente
+28	chr_SucuCodigo	Código de sucursal
+29	chr_CliePersTipoCodigo	Código del tipo de personal del cliente
+30	chr_ClieNaciCodigo	Código del tipo de nacimiento del cliente
+31	vch_ClieReprlegal	Nombre del representante legal de la empresa
+32	vch_ClieGereGeneral	Nombre del Gerente General de la empresa
+33	dtt_ClieInicio	Fecha de inicio de actividades del cliente
+34	vch_ClieWeb	URL dirección de la página web del cliente
+35	vch_ClieActividad	Actividad principal del cliente
+36	chr_ClieDirecto	Es cliente directo?
+37	chr_ClieIso	Es cliente ISO?
+38	chr_ClieBasc	Es cliente BASC?
+39	chr_ClieCertOtros	Es cliente Otros?
+40	vch_ClieCertOtros	Nombre o detalles del cliente Otros
+41	chr_ClieAdex	Es cliente ADEX?
+42	chr_ClieComercio	Es cliente de comercio exterior?
+43	chr_ClieCodigoContacto	Código del contacto del cliente
+44	chr_SectEconCodigo	Código del sector económico
+45	chr_ClieCodigoProporciona	Código del cliente proporcionado
+46	chr_ClieVerificado	Es cliente verificado?
+47	chr_UsuarioVerifica	Código de usuario que verifica al cliente
+48	chr_ClieFormato	Código del formato del cliente
+49	chr_UsuarioFormato	Código de usuario que registra el formato del cliente
+50	chr_ClieTieneLCredito	El cliente tiene línea de crédito?
+51	dtt_ClieTieneLCredito	Fecha de registro de línea de crédito
+52	num_ClieMontoLCredito	Monto final de la línea de crédito
+53	chr_ClieTieneLCreditoUsuario	Código de usuario que registro línea de crédito
+54	chr_MoneCodigoLCredito	Código de la moneda de la línea de crédito
+55	chr_ClieLineaCodLink	Código de la línea
+56	vch_ClieSiglas	Siglas del cliente
+57	chr_ClieAgteRetencion	Es cliente con agente de retención?
+58	chr_ClieFacturaAsumeTM	Es cliente que asume factura TM?
+59	chr_ClieFicticio	Es cliente ficticio?
+60	chr_ClieControlPesoManual	Es cliente con control de peso manual?
+61	int_ClieControlPesoDias	Es cliente con control de peso por días?
+62	chr_ClieSITExpoReqCtaTarifa	Es cliente que exporta con tarifa de cuarta?
+63	chr_CliePesoManualExpIngCaso2	Es cliente que registra peso manual?
+64	chr_CliePesoManualImpIngCaso1	Es cliente que registra peso manual con impuesto?
+65	vch_ClieDireEntrega	Dirección de entrega de mercadería del cliente
+66	chr_PersCodigo	Código del personal representante
+67	dtt_ClieVctoCarnetAduana	Fecha de vencimiento del carnet de aduana
+68	chr_ClieMigradoSAP	Es cliente que fue migrado al SAP?
+69	dtt_ClieSincronizaVisita	Fecha de visita del cliente
+70	chr_enticodigogrupo	Código de entidad de grupo
+71	CHR_PROVMIGRADOSAP	Provincia de cliente fue migrado al SAP?
+72	dtt_cliemigradosap	Fecha y hora de migración del cliente al SAP
+73	dtt_provmigradosap	Fecha y hora de migración de provincia de cliente a SAP
+74	chr_MigraCarpeta	Carpeta de cliente fue migrada?
+75	vch_ClieReprlegal_NroDoc	Numero de documento de representante legal de cliente
+76	dtt_FechaFundacion	Fecha de fundación de empresa
+77	chr_conviqbf	Es un cliente que posee QBF?
+78	OcrCode2	Código OCR del cliente
+79	chr_ClieAsociado	Código del cliente asociado
+80	CardCode	Código de barras del cliente
+81	chr_Dia_5	Cliente con 5 días de retraso
+82	chr_Dia_15	Cliente con 15 días de retraso
+83	chr_Dia_30	Cliente con 30 días de retraso
+84	chr_TipoComprobante	Tipo de comprobante de cliente
+85	vch_CodEjecutivo	Código de ejecutivo comercial de cliente
+
+
+
+
